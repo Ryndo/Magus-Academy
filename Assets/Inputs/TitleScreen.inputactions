@@ -1,0 +1,120 @@
+{
+    "name": "TitleScreen",
+    "maps": [
+        {
+            "name": "TitleScreen",
+            "id": "083def34-6bbd-4345-becb-265ac6f512b4",
+            "actions": [
+                {
+                    "name": "A",
+                    "type": "Button",
+                    "id": "c3e20ed1-c790-49f3-96ff-ec22ed2b819a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Select",
+                    "type": "Button",
+                    "id": "2eadf8f6-5494-4323-8134-1535681aeee2",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "4ab3a9ad-43f6-49a5-b819-9f7788e3a59f",
+                    "expectedControlType": "",
+                    "processors": "StickDeadzone(min=0.2)",
+                    "interactions": ""
+                },
+                {
+                    "name": "FastForward",
+                    "type": "Button",
+                    "id": "fa993de1-9361-4a0d-8e53-a57c85181179",
+                    "expectedControlType": "",
+                    "processors": "StickDeadzone(min=0.2)",
+                    "interactions": ""
+                },
+                {
+                    "name": "Back",
+                    "type": "Button",
+                    "id": "308dfcae-8f58-4ecd-96db-83727f83dc3e",
+                    "expectedControlType": "",
+                    "processors": "StickDeadzone(min=0.2)",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6e5a3ed9-4e55-470c-beeb-2b53993cd82b",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "A",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "40a51ff4-3739-4961-acf6-d88e7f913350",
+                    "path": "<Gamepad>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5d3326e3-f319-46b6-badc-b7cf961442ae",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "89b0b003-5a3f-4ee0-a5ae-0eba20fe4f2d",
+                    "path": "<Gamepad>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fb5cce4d-b4db-44cc-8a35-4c25a373e617",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FastForward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d38ee5ff-70b4-495c-86d1-4a0f0b1e1ee8",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
